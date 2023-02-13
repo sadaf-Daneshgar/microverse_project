@@ -1,0 +1,44 @@
+#header{
+    position: fixed;
+    height: 75px;
+    padding: 0px, 10px;
+    display: flex;
+    justify-content: space_around;
+    align-items: center;
+    background-color: #eee;   
+  }
+  #nav-bar{
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    position: fixed;
+    top: -1px;
+  }
+  #logo{
+    width: 60vw;
+  
+  }
+  #logo>img{
+   width: 100%;
+   height: 100%;
+   max-width: 300px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   align-items: center;
+   margin-left: 10px;
+  }
+  @media(max-width: 590px){
+    body{
+      font-size: 85%;
+    }
+    header{
+      grid-template-columns:
+      255-x;
+    }
+    main{
+      top: 55px;
+    }
+  }
+  
